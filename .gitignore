@@ -153,3 +153,5 @@ build_tests/
 yap_testing
 html/img/img/
 
+#static
+/blogicum/static_files/

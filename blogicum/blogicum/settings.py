@@ -80,7 +80,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ru-RU'
 
-TIME_ZONE = 'UTC+05'
+# Не дали поменять таймзон ошибки при отправке на проверку
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
