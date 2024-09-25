@@ -80,7 +80,6 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ru-RU'
 
-# Не дали поменять таймзон ошибки при отправке на проверку
 TIME_ZONE = 'Asia/Tashkent'
 
 USE_I18N = True
