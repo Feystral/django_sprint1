@@ -50,8 +50,8 @@ def index(request):
 
 
 def post_detail(request, id):
-    if id < 0 or id >= len(posts):
-        raise Http404("Пост не найден")
+    if id not in [post['id'] for post in posts]:
+        raise Http404('Пост не найден')
     return render(request, 'blog/detail.html', {'post': posts[id]})
 
 
